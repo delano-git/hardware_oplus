@@ -6,6 +6,9 @@
 /mnt/vendor/persist/dual_camera_calibration(/.*)?      u:object_r:vendor_persist_camera_file:s0
 /(vendor|system/vendor)/lib64/libipebpsstriping\.so    u:object_r:same_process_hal_file:s0
 
+# Charging
+/sys/devices/virtual/oplus_chg/battery/fast_charge                                u:object_r:vendor_sysfs_battery_supply:s0
+
 # Display
 /dev/oplus_display                                                                         u:object_r:graphics_device:s0
 /sys/kernel/oplus_display/dimlayer_bl_en                                                   u:object_r:sysfs_dm:s0
