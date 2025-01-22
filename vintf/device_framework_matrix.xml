@@ -43,6 +43,14 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.camera_rfi</name>
+        <version>1</version>
+        <interface>
+            <name>ICameraRfiService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.cameraextension</name>
         <version>1</version>
         <interface>
@@ -52,6 +60,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.cameraMDM</name>
+        <version>1.0</version>
         <version>2.0</version>
         <interface>
             <name>IOPlusCameraMDM</name>
@@ -68,7 +77,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.communicationcenter</name>
-        <version>1</version>
+        <version>1-2</version>
         <interface>
             <name>IDmtpService</name>
             <instance>default</instance>
@@ -134,7 +143,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.performance</name>
-        <version>1</version>
+        <version>1-2</version>
         <interface>
             <name>IPerformance</name>
             <instance>default</instance>
@@ -168,7 +177,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.stability.oplus_project</name>
-        <version>1</version>
+        <version>1-2</version>
         <interface>
             <name>IOplusProject</name>
             <instance>default</instance>
