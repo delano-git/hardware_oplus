@@ -1,2 +1,5 @@
 # Battery Health
 r_dir_file(system_app, vendor_sysfs_usb_supply)
+
+# A.settings
+allow system_app zygote:binder { call };
